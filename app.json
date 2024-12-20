@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "firnunity",
-    "slug": "firnunity",
+    "slug": "firmunity",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e6d2802d-78e4-45d0-8404-55548298d9cf"
+      }
+    },
+    "owner": "justinaus"
   }
 }
